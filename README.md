@@ -22,7 +22,7 @@ If the one block is 100x the other, it just so happens that there will be 31 col
 ![Graphic2](collision_counting_graphic2.png)
 ![Graphic3](collision_counting_graphic3.png)
 
-If the one block is 10000x the other, there will be 314 collisions (I get tired of making graphics).
+If the one block is 10000x the other, there will be 314 collisions (I get tired of making graphics).  
 If the one block is 1000000x the other, there will be 3141 collisions.
 
 That's pi!
@@ -42,5 +42,5 @@ Can anybody help to fix this issue?
 
 
 
-Here is a link to the video I made about my code: https://youtu.be/u8VhOUYVy80
+Here is a link to the video I made about my code: https://youtu.be/u8VhOUYVy80  
 I borrowed part of the code from here: https://processing.org/examples/circlecollision.html
