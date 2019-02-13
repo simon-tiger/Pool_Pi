@@ -16,19 +16,19 @@ function setup() {
     //to have a reference to the original array
     initialPositions = [100, 300];
     positions = [...initialPositions];
-    initialVelocities = [0, -0.3];
+    initialVelocities = [0, -5];
     velocities = [...initialVelocities];
-    masses = [1, 1000000000000];
+    masses = [1, 1];
     //setup inputs
     createDiv("Mass of the second body");
-    inputs[0] = createInput("100000000");
+    inputs[0] = createInput("1");
     inputs[0].input(function () {
         masses[1] = parseFloat(this.value());
         // console.log("yay");
         restart();
     });
     createDiv("Initial speed of the second body");
-    inputs[1] = createInput("-1");
+    inputs[1] = createInput("-5");
     inputs[1].input(function () {
         initialVelocities[1] = parseFloat(this.value());
         restart();
