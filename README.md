@@ -40,7 +40,7 @@ I could get 100 to work this way, but not 10000.
 
 Can anybody help to fix this issue?
 
-
+-fixed by Matei Adriel
 
 Here is a link to the video I made about my code: https://youtu.be/u8VhOUYVy80  
 I borrowed part of the code from here: https://processing.org/examples/circlecollision.html
