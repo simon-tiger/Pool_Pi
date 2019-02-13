@@ -1,0 +1,27 @@
+{
+  "name": "pool_pi3",
+  "version": "1.0.0",
+  "description": "Number of collsions between blocks tends to PI",
+  "main": "app.js",
+  "scripts": {
+    "test": "oof"
+  },
+  "repository": {
+    "type": "git",
+    "url": "oof"
+  },
+  "keywords": [
+    "Pi",
+    "pool_pi",
+    "Matei_Adriel",
+    "Simon_Tiger",
+    "3blue1brown",
+    "TheCodingTrain"
+  ],
+  "author": "Matei Adriel Rafael",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/p5": "^0.7.2",
+    "p5": "^0.7.3"
+  }
+}
