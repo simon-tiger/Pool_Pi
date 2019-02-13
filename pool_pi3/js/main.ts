@@ -3,10 +3,11 @@
     initial processing implementation: Simon Tiger
     fixed p5 implementation: Matei Adriel
 */
+console.clear();
 
-type Vector2 = [number,number] | Array<number>;
+type Vector2 = [number, number] | Array<number>;
 
-let inputs:Array<any> = [];
+let inputs: Array<any> = [];
 
 let masses: Vector2,
     lastNumberOfmirrors: number;
@@ -27,10 +28,10 @@ function setup() {
     //setting up default values
     //i use the spread operator because i dont want 
     //to have a reference to the original array
-    initialPositions = [100,300];
+    initialPositions = [100, 300];
     positions = [...initialPositions];
 
-    initialVelocities = [0,-5];
+    initialVelocities = [0, -5];
     velocities = [...initialVelocities];
 
     masses = [1, 1];
@@ -38,20 +39,20 @@ function setup() {
     //setup inputs
     createDiv("Mass of the second body");
     inputs[0] = createInput("1");
-    inputs[0].input(function(){
+    inputs[0].input(function () {
         masses[1] = parseFloat(this.value());
         // console.log("yay");
         restart();
     });
     createDiv("Initial speed of the second body");
     inputs[1] = createInput("-5");
-    inputs[1].input(function(){
+    inputs[1].input(function () {
         initialVelocities[1] = parseFloat(this.value());
         restart();
     });
 }
 
-function restart(){
+function restart() {
     collisions = 0;
     positions = [...initialPositions];
     velocities = [...initialVelocities];

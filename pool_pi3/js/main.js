@@ -3,6 +3,7 @@
     initial processing implementation: Simon Tiger
     fixed p5 implementation: Matei Adriel
 */
+console.clear();
 let inputs = [];
 let masses, lastNumberOfmirrors;
 let positions, initialPositions, velocities, initialVelocities;
