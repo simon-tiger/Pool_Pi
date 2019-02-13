@@ -8,6 +8,8 @@ I called this sketch Pool_pi because the original paper about this (written in 2
 2nd video: https://www.youtube.com/watch?v=jsYwFizhncE   
 3rd video: https://www.youtube.com/watch?v=brU5yLm9DZM
 
+Live version (from pool_pi3 aka the p5 version): https://pi-collisions.herokuapp.com/
+
 ## The idea
 The idea is 2 blocks on a frictionless surface. One slides towards the other, that is facing a wall. All collisions are perfectly elastic.
 
