@@ -40,7 +40,7 @@ function setup() {
     inputs[0] = createInput("100000000");
     inputs[0].input(function(){
         masses[1] = parseFloat(this.value());
-        console.log("yay");
+        // console.log("yay");
         restart();
     });
     createDiv("Initial speed of the second body");
