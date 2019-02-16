@@ -8,6 +8,8 @@ I called this sketch Pool_pi because the original paper about this (written in 2
 2nd video: https://www.youtube.com/watch?v=jsYwFizhncE   
 3rd video: https://www.youtube.com/watch?v=brU5yLm9DZM
 
+Live version (from pool_pi3 aka the p5 version): https://pi-collisions.herokuapp.com/
+
 ## The idea
 The idea is 2 blocks on a frictionless surface. One slides towards the other, that is facing a wall. All collisions are perfectly elastic.
 
@@ -40,7 +42,7 @@ I could get 100 to work this way, but not 10000.
 
 Can anybody help to fix this issue?
 
-
+-fixed by Matei Adriel
 
 Here is a link to the video I made about my code: https://youtu.be/u8VhOUYVy80  
 I borrowed part of the code from here: https://processing.org/examples/circlecollision.html

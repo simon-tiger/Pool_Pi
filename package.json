@@ -1,0 +1,29 @@
+{
+  "name": "pool_pi",
+  "version": "1.0.0",
+  "description": "The number of collisions between two objects equals a number of digits of Pi ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simon-tiger/Pool_Pi.git"
+  },
+  "keywords": [
+    "pi",
+    "SimonTiger",
+    "MateiAdriel",
+    "TheCodingTrain",
+    "3blue1brown"
+  ],
+  "author": "Matei Adriel",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/simon-tiger/Pool_Pi/issues"
+  },
+  "homepage": "https://github.com/simon-tiger/Pool_Pi#readme",
+  "dependencies": {
+    "translucid": "^1.1.1"
+  }
+}

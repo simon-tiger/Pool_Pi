@@ -1,0 +1,9 @@
+{
+    "compilerOptions":{
+        "target":"esnext",
+        "watch":true,
+        "lib":["es2017"],
+        "module": "commonjs"
+    },
+    "exclude": ["node_modules", "**/__tests__/*"]
+}
